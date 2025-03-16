@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 
 sns.set(style='dark')
 
-# Helper function yang dibutuhkan untuk menyiapkan berbagai dataframe
+# Helper function yang dibutuhkan untuk menyiapkan berbagai dataframe1
 
 def create_daily_orders_df(df):
     daily_orders_df = df.resample(rule='D', on='order_date').agg({
